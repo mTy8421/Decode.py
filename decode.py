@@ -1,4 +1,5 @@
-import base64
+import base64 as bs
 
-coded_string = '''Q5YACgA...'''
-base64.b64decode(coded_string)
+coded_string = input('Enter Something :')
+
+print(bs.b64decode(coded_string))
