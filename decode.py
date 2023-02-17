@@ -1,5 +1,4 @@
-import base64 as bs
+import base64
 
-a = "hello world"
-
-bs.b64decode(a)
+coded_string = '''Q5YACgA...'''
+base64.b64decode(coded_string)
