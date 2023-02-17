@@ -1,5 +1,5 @@
 import base64 as bs
 
-num = input("Enter :")
+a = "hello world"
 
-bs.b64decode(num)
+bs.b64decode(a)
